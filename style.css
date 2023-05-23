@@ -1,6 +1,7 @@
 @font-face {
     font-family: Minecraft;
-    <link rel="Minecraft" href="./fonts/Minecraft.ttf"/>;
+    src: url(./Project-Landing-Page/fonts/Minecraft.ttf)
+    ;
 }
 
 
