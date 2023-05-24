@@ -1,6 +1,6 @@
 @font-face {
     font-family: Minecraft;
-    src: url(/Users/dennis/repos/Project-Landing-Page/fonts/Minecraft.ttf)
+    src: url(./fonts/Minecraft.ttf)
     ;
 }
 
@@ -167,8 +167,51 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
+.official-box {
+    display: flex;
+    flex: none;
+    width: 450px;
+    height: 100px;
+    padding: 20px 150px;
+    background-color: skyblue;
+    margin: 50px;
+    border-radius: 20px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.official-text {
+    display: flex;
+    flex-direction: row;
+}
+
+.official-text p {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex: 1;
+    margin: 15px;
+    color: darkgreen;
+    text-shadow: black;
+    font-size: 20px;
+    text-decoration: none;
+    
+}
+
+.official-site {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    margin: 15px;
+}
 
 ul {
     list-style: none;
@@ -181,7 +224,7 @@ ul {
 }
 
 
-a {
+ul a {
     text-decoration: none;
     color: darkgreen;
     text-shadow: black;
