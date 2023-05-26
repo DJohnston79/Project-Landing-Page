@@ -169,6 +169,7 @@ body {
     justify-content: center;
     padding-top: 50px;
     padding-bottom: 50px;
+    background-color: darkgreen;
 }
 
 .official-box {
@@ -211,6 +212,15 @@ body {
     align-items: center;
     flex: 1;
     margin: 15px;
+}
+
+.footer {
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #8b4513;
+    color: forestgreen;
 }
 
 ul {
