@@ -32,8 +32,15 @@ body {
     width: 84px;
     height: 84px;
     margin-right: auto;
+    text-decoration: none;
+    color: darkgreen;
+    text-shadow: black;
 }
 
+.Disc {
+    width: 48px;
+    height: 51px;;
+    }
 
 .header_title {
     width: 100%;
