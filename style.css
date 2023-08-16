@@ -29,17 +29,20 @@ body {
 
 .header-logo {
     display: flex;
-    width: 84px;
-    height: 84px;
+    width: 36px;
+    height: 51px;
     margin-right: auto;
     text-decoration: none;
     color: darkgreen;
     text-shadow: black;
+    gap: 16px;
+    padding: 16px
 }
 
 .Disc {
     width: 48px;
-    height: 51px;;
+    height: 51px;
+  
     }
 
 .header_title {
