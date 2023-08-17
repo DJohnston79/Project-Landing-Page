@@ -39,6 +39,13 @@ body {
     padding: 16px
 }
 
+.header-logo:hover { 
+    /*Code used to change color over links where a user hovers to let user know it is a link*/
+    color: blue;
+    text-decoration: none; 
+    font-weight: none; 
+}
+
 .Disc {
     width: 48px;
     height: 51px;
